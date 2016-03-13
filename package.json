@@ -1,0 +1,17 @@
+{
+  "name": "eslint-fatigue",
+  "version": "1.0.0",
+  "description": "ESLint configs and Makefile to reduce the amount of boilerplate to set up linters.",
+  "keywords": [
+    "eslint",
+    "babel"
+  ],
+  "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1"
+  }
+}

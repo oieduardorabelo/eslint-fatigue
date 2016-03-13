@@ -2,7 +2,7 @@
 
 ESLint configs and Makefile to reduce the amount of boilerplate to set up linters.
 
-Based on the idea of [oieduardorabelo/react-fatigue-webpack](https://github.com/oieduardorabelo/react-fatigue-webpack),
+Based on the idea of [oieduardorabelo/react-fatigue-webpack](https://github.com/oieduardorabelo/react-fatigue-webpack)
 
 ## Installation
 
@@ -18,7 +18,7 @@ Add this module as a dev dependency, and add the following to your project's Mak
 include node_modules/eslint-fatigue/Makefile
 ```
 
-You'll now have the `lint` command available lint all `.js` and `.jsx` files recursively from the current directory.
+You'll now have the `lint` command available, it will lint all `.js` and `.jsx` files recursively from the current directory.
 
 If you'd to change the linter path, just do a small change:
 

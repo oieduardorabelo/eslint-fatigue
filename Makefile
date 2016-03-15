@@ -1,5 +1,5 @@
-ESLINT_PATH ?= $(wildcard ./**/*.js ./**/*.jsx)
-
+ESLINT_PATH ?= .
+ESLINT_EXT ?= --ext .jsx
 P="\\033[34m[+]\\033[0m"
 
 help:
@@ -9,6 +9,6 @@ help:
 
 lint:
 	@echo "  $(P) linting..."
-	@$(BIN_DIR)/eslint $(ESLINT_PATH)
+	@$(BIN_DIR)/eslint $(ESLINT_PATH) $(ESLINT_EXT)
 
 .PHONY: lint help

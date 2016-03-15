@@ -33,6 +33,8 @@ include node_modules/eslint-fatigue/Makefile
 - eslint
 - eslint-config-airbnb
 - eslint-plugin-react
+- eslint-plugin-immutable
+- eslint-plugin-react
 
 ## Links
 

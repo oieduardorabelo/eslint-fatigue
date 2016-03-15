@@ -1,5 +1,5 @@
 ESLINT_PATH ?= .
-ESLINT_EXT ?= --ext .jsx
+ESLINT_EXT ?= --ext ".+(js|jsx)"
 P="\\033[34m[+]\\033[0m"
 
 help:

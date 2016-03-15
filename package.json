@@ -8,10 +8,15 @@
   ],
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
   "license": "MIT",
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oieduardorabelo/eslint-fatigue.git"
+  }
+  "dependencies": {
     "babel-eslint": "^5.0.0",
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-immutable": "github:jhusain/eslint-plugin-immutable",
     "eslint-plugin-react": "^4.2.1"
   }
 }

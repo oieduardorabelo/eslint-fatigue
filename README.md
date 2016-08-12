@@ -36,6 +36,14 @@ include node_modules/eslint-fatigue/Makefile
 - eslint-plugin-immutable
 - eslint-plugin-react
 
+## Running without eslint-fatigue
+
+You can also install all dependencies right in your project:
+
+```
+npm install -D babel-eslint eslint eslint-config-airbnb eslint-plugin-react eslint-plugin-immutable eslint-plugin-react
+```
+
 ## Links
 
 - [Example project](https://github.com/oieduardorabelo/react-companies-board) using eslint-fatigue

@@ -41,7 +41,7 @@ include node_modules/eslint-fatigue/Makefile
 You can also install all dependencies right in your project:
 
 ```
-npm install -D babel-eslint eslint eslint-config-airbnb eslint-plugin-react eslint-plugin-immutable eslint-plugin-react
+npm install -D babel-eslint eslint eslint-config-airbnb eslint-plugin-immutable eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 ```
 
 ## Links

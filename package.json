@@ -13,7 +13,7 @@
     "url": "https://github.com/oieduardorabelo/eslint-fatigue.git"
   },
   "dependencies": {
-    "babel-eslint": "7.2.1",
+    "babel-eslint": "7.2.2",
     "eslint": "3.19.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-immutable": "1.0.0",
